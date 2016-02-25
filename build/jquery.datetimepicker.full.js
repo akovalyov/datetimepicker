@@ -1769,11 +1769,11 @@ var DateFormatter;
                     timeboxparent.xdsoftScroller('hide');
                 }
 
-                if (options.minDate && /^[\+\-](.*)$/.test(options.minDate)) {
+                if (options.minDate) {
                     options.minDate = dateHelper.formatDate(_xdsoft_datetime.strToDateTime(options.minDate), options.formatDate);
                 }
 
-                if (options.maxDate && /^[\+\-](.*)$/.test(options.maxDate)) {
+                if (options.maxDate) {
                     options.maxDate = dateHelper.formatDate(_xdsoft_datetime.strToDateTime(options.maxDate), options.formatDate);
                 }
 
