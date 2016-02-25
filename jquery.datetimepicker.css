@@ -129,8 +129,14 @@
 }
 .xdsoft_datetimepicker .xdsoft_today_button {
 	float: left;
-	background-position: -70px 0;
+	/*
+	the icon was generated from FontAwesome fa-o-clock
+	resource - http://fa2png.io/r/font-awesome/clock-o/?color=000000&margin=0&size=20
+	icon - http://fa2png.io/media/icons/fa-clock-o/20/20/000000_none.png
+	*/
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAA8FBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmRfStAAAAT3RSTlMAAQIFBggJCgsNDg8RGhwdHiEiIyQqLjE0OTo/QUJHSUpLTU5PUllhYmhpbXB4eYWMj5KVoKKjrbS3ubq+wcPHyM7R2tze5Obo7fH19/n94ispKQAAAM9JREFUGBkFwYtCTAEAQMG5W1hpEfIOIXE9Sl4lFZFYdP7/b8wArr8+mv/+8nIGgNlxVdX+RYDHVZ38qvpzC3hSfbw2MLm5X63CrM7WADZrfgHHdR8crmOsD9yo90AjfKtL3tQK0Aj36qmvNQCNcL52zDsBNMJQe+b9xFLVCEPtOqgJCy/GcVyBaW17VasAsF4PXK1dAEx+1JSDegbAVr3F8r96Dhi26nQR7lRHd88Nw/TR9+oycPtvVVWdXgFY+lRVtbMIgOWNd5/3th9Ogf9nFjCHmwt5aQAAAABJRU5ErkJggg==);
 	margin-left: 5px;
+	background-position: center center;
 }
 
 .xdsoft_datetimepicker .xdsoft_next {
@@ -518,12 +524,12 @@
 	background: #333 !important;
 }
 .xdsoft_datetimepicker .xdsoft_save_selected {
-    display: block;
-    border: 1px solid #dddddd !important;
-    margin-top: 5px;
-    width: 100%;
-    color: #454551;
-    font-size: 13px;
+	display: block;
+	border: 1px solid #dddddd !important;
+	margin-top: 5px;
+	width: 100%;
+	color: #454551;
+	font-size: 13px;
 }
 .xdsoft_datetimepicker .blue-gradient-button {
 	font-family: "museo-sans", "Book Antiqua", sans-serif;
@@ -547,22 +553,22 @@
 	background: linear-gradient(to bottom, #fff 0%, #f4f8fa 73%);
 	/* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f4f8fa',GradientType=0 );
-/* IE6-9 */
+	/* IE6-9 */
 }
 .xdsoft_datetimepicker .blue-gradient-button:hover, .xdsoft_datetimepicker .blue-gradient-button:focus, .xdsoft_datetimepicker .blue-gradient-button:hover span, .xdsoft_datetimepicker .blue-gradient-button:focus span {
-  color: #454551;
-  background: -moz-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f8fa), color-stop(73%, #FFF));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #f4f8fa 0%, #FFF 73%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f8fa', endColorstr='#FFF',GradientType=0 );
-  /* IE6-9 */
+	color: #454551;
+	background: -moz-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f8fa), color-stop(73%, #FFF));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f4f8fa 0%, #FFF 73%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #f4f8fa 0%, #FFF 73%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f8fa', endColorstr='#FFF',GradientType=0 );
+	/* IE6-9 */
 }
