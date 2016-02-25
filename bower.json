@@ -1,6 +1,6 @@
 {
-  "name": "datetimepicker",
-  "version": "2.5.1",
+  "name": "datetimepicker-fork",
+  "version": "2.5.1.1",
   "main": [
     "build/jquery.datetimepicker.full.min.js",
     "jquery.datetimepicker.css"
@@ -51,6 +51,6 @@
   "homepage": "http://xdsoft.net/jqplugins/datetimepicker/",
   "repository": {
     "type": "git",
-    "url": "git://github.com:xdan/datetimepicker.git"
+    "url": "git://github.com:akovalyov/datetimepicker.git"
   }
 }
